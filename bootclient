@@ -1,0 +1,4 @@
+#!/bin/bash
+cd src/
+javac Client.java
+java Client "$1" "$2"
